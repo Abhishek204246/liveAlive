@@ -1,0 +1,47 @@
+[liveAlive.html](https://github.com/user-attachments/files/25191949/liveAlive.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login UI</title>
+  <link rel="stylesheet" href="liveAlive.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Welcome to liveAlive 🧳</h2>
+      <p>Please login to your account</p>
+
+      <form action="server_script.php" method="POST">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required />
+        </div>
+
+        <div class="row">
+          <label class="remember">
+            <input type="checkbox" />
+            Remember me
+          </label>
+
+          <a href="#" class="link">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <p class="signup">
+          Don’t have an account?
+          <a href="#" class="link">Sign up</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
